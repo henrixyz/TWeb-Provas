@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <p>FRANCISCO HENRIQUE OLIVEIRA BEZERRA</p>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Portfólio</h2>
+            <img src="img/perfil.png" alt="perfil" width="100px">
+            <p>Iguatuense: imensamente curioso</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre mim:</h2>
+            <p> aprecio bastante <em>desenvolvimento mobile
+            </em></p>
+            <img src="img/imagem-representativa.png" alt="imagem representativa desenvolvimento" width="200px">
+        </section>
+        <section id="projetos">
+                <h2>Meus Projetos</h2>
+                <ol>
+                    <li>
+                        <div class="projeto-1">
+                            <h3>Sistema de Consultas com Psicólogos</h3>
+                            <p>Sistema Desenvolvido React Native para projeto de startup no Ensino Médio </p>
+                            <img src="img/p1.png" alt="linie" width="150px"><br>
+                            <a href="https://www.youtube.com/watch?v=0MTHSKi2ldE&t=1s" target="_blank">Consulte o vídeo</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="projeto-2">
+                            <h3>Sistema de Criação de legendas automáticas</h3>
+                            <p>APP que permite que o usuário envie qualquer arquivo e transforme-o em legenda automatica</p>
+                            <img src="img/p2.png" alt="linia imagem" width="150px"><br>
+                            <a href="https://linia.netlify.app/" target="_blank">Consule o site</a>
+                        </div>
+                    </li>
+                </ol>
+
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <h4>Objetivos de Carreira</h4>
+            <ol>
+                <li>Concluir Bacharelado em Sistemas de Informação</li>
+                <li>Iniciar Pós-Graduação em UI/UX ou Eng. Software</li>
+                <li>Concluir Projeto Pessoal (tracker de todas as mídias) </li>
+            </ol>
+            
+            <h4>Tecnologias que quero aprender ou especializar</h4>
+                <ul>
+                    <li>React Native</li>
+                    <li>SQL</li>
+                    <li>Back-end: PHP ou Node.js</li>
+                    <li>GML</li>
+                    <li>Linux</li>
+                </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <fieldset>
+                    <legend>Suas Informações</legend>
+                        <br>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome"><br><br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" nome="email" id="email">
+                        <br><br>
+                        <fieldset>
+                            <legend> Motivo de Contato </legend>
+                            <input type="radio" name="contratação" id="contratacao" value="item-1">
+                            <label for="contratacao">Contratação</label><br>
+
+                            <input type="radio" name="interesse em projeto" id="interesse" value="item-2">
+                            <label for="interesse">Interesse em projeto</label><br>
+
+                            <input type="radio" name="ajuda" id="ajuda" value="item-3">
+                            <label for="ajuda">Ajuda</label>
+                        </fieldset><br>
+                        <label for="mensagem">Escreva sua mensagem:</label><br>
+                        <textarea cows="5" cols="30" name="mensagem" id="mensagem"></textarea><br><br>
+                        <input type="submit" value="enviar">
+                </fieldset>
+            </form>
+        </section>
+    <footer>
+
+        <h2>Informações de Rodapé</h3>
+        <span>
+            <p><strong>Nome:</strong>Francisco Henrique Oliveira Bezerra | <strong>Curso:</strong>Sistemas de Informação </p>
+        </span>
+    </footer>
+</body>
+</html>
